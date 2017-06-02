@@ -1,0 +1,14 @@
+stage.set_background("flowers")
+sprite = codesters.Sprite("flower3", 0, 100)
+
+
+choice = sprite.ask("fox or butterfly?")
+
+if choice == "fox":
+    sprite.say("Fox")
+    sprite = codesters.Sprite("fox", -100, 00)
+    
+
+if choice == "butterfly":
+    sprite.say("Butterfly")
+    sprite = codesters.Sprite("butterfly", 100, 0)
